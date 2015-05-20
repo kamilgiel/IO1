@@ -1,8 +1,11 @@
-""" Oblicza pole trojkata wg wzoru Herona
+def dodawanie(a,b):
+    return a+b
+def get_info():
+    print("To jest alkulator")
+get_info()
+print('Podaj pierwszą liczbę:')
+a=int(input())
+print('Podaj drugą liczbę:')
+b=int(input())
+print(dodawanie(a,b))
 
-    a ,b , c dlugosci bokow trojkata
-    >> heron (3 ,4 ,5)
-    6.0
-    """
-#każdy skrypt można zrobić moduł i zaimportować do innego skryptu. Ta linijka jest właśnie do tego.
-Print("Siema")
